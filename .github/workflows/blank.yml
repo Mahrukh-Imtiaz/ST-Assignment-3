@@ -24,4 +24,4 @@ jobs:
       - name: Run Tests
         run: |
            cd src
-           java -cp ".;../lib/*" org.junit.runner.JUnitCore UnitTesting
+           java -cp ".;../lib/*"  org.junit.platform.console.ConsoleLauncher LoginAppTest
